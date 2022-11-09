@@ -1,3 +1,15 @@
+## Hoseted on Heroku
+  https://e-commerce-react-json-server.herokuapp.com/
+## How to use the app
+
+This is a e-commerce app with 
+Home page- show the list of product from Json Server as backend
+Detail page- how the detial of the product
+Create page- you can create a new product and add it to backed
+Cart page-the products marked as favourites are displayed in the page
+Hosted on Heroku -https://e-commerce-react-json-server.herokuapp.com/
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
