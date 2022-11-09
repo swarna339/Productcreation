@@ -1,13 +1,13 @@
-## Hoseted on Heroku
-  https://e-commerce-react-json-server.herokuapp.com/
+## Hoseted on Heroku    https://aqueous-coast-97737.herokuapp.com/
+    1)  https://aqueous-coast-97737.herokuapp.com/
 ## How to use the app
 
-This is a e-commerce app with 
-Home page- show the list of product from Json Server as backend
-Detail page- how the detial of the product
-Create page- you can create a new product and add it to backed
-Cart page-the products marked as favourites are displayed in the page
-Hosted on Heroku -https://e-commerce-react-json-server.herokuapp.com/
+    1) This is a e-commerce app with react js as front end and json server as backend
+    2) Home page- show the list of product from Json Server as backend
+    3) Detail page- how the detial of the product
+    4) Create page- you can create a new product and add it to backed
+    5) Cart page-the products marked as favourites are displayed in the page
+    6) Hosted on Heroku -https://e-commerce-react-json-server.herokuapp.com/
 
 
 # Getting Started with Create React App
