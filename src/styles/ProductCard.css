@@ -1,0 +1,36 @@
+.productCard {
+  width: 175px;
+  margin: 5px auto;
+  height: 375px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.imageContainer {
+  height: 69%;
+}
+.imageContainer > img {
+  height: 250px;
+  width: 100%;
+}
+.infoContaienr {
+  box-sizing: content-box;
+  padding: 0px 20px;
+  height: 37%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(237, 239, 241);
+}
+.priceRatingContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+}
+.favButton {
+  border: transparent;
+  color: rgb(231, 149, 163);
+  font-size: 25px;
+}
+

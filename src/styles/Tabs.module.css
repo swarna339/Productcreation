@@ -1,0 +1,30 @@
+.tabsContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tabsContainer > button {
+  border: 0px solid transparent;
+  background-color: transparent;
+  font-size: 1rem;
+  color: rgb(159, 155, 155);
+  width: 150px;
+  height: 75px;
+}
+.tabsContainer > button:hover {
+  font-size: 1.1rem;
+}
+.tabsContainer > button:active {
+  font-size: 1rem;
+}
+button:active {
+  color: red;
+}
+.Toggleborder {
+  height: 25px;
+  width: 1px;
+  border: 1px solid black;
+  background-color: black;
+  margin: 0px 20px;
+}

@@ -1,0 +1,58 @@
+.detailsWrapper {
+  background-color: green;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background: url("https://c1.wallpaperflare.com/preview/217/336/936/rack-clothing-brand-t-shirt.jpg");
+  background: url("https://img.freepik.com/premium-photo/row-black-white-tshirts-hanging-rack_93675-117000.jpg?w=2000");
+  background: url("https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/72/473/L_g0071847372.jpg");
+  background: url("https://ae01.alicdn.com/kf/Scc528568883648e0aff24432f5b6eafer.jpg");
+  background: url("https://img.freepik.com/premium-photo/man-s-hand-choosing-black-color-t-shirt-from-collection-black-gray-white-t-shirt-wooden-hanger_43448-182.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+}
+.detailForms {
+  width: 100%;
+  padding: 0%;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.detailForms>h1{
+  font-size: 50px;
+}
+form {
+  background-color: transparent;
+}
+fieldset {
+  max-width: 300px;
+  min-width: 250px;
+  margin: 5vh auto;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 30px;
+  border-radius: 10px;
+  gap: 20px;
+  border-color: transparent;
+  background-color: rgba(128, 128, 128, 0.8);
+}
+label {
+  color: black;
+}
+input {
+  padding: 5px 10px;
+  border: 1px solid transparent;
+  border-radius: 5 px;
+}
+.inputGroup {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

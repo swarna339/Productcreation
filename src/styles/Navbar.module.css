@@ -1,0 +1,44 @@
+.navWrapper {
+  width: 90vw;
+  height: 15vh;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+}
+
+.logoContainer > h1 {
+  font-size: 60px;
+  color: white;
+}
+
+.toolsContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 25px;
+}
+.headerIcons {
+  border: 1px solid transparent;
+  background-color: transparent;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.headerIcons:hover {
+  background-color: rgb(191, 186, 186);
+}
+.headerIcons:active {
+  background-color: transparent;
+}
+
+@media screen and (max-width: 400px) {
+  .navWrapper {
+    height: 20vh;
+  }
+}

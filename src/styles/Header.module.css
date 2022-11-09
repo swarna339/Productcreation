@@ -1,0 +1,59 @@
+.headerInnerContainer {
+  height: 130vh;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+
+  background-image: url(https://c1.wallpaperflare.com/preview/979/940/869/apparel-clothing-fashion-hangers.jpg);
+
+  /* fit cover */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -50vh;
+}
+.navWrapper {
+  width: 90vw;
+  height: 15vh;
+  position: relative;
+  top: 50vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logoContainer > Link {
+}
+.logoContainer > h1 {
+  font-size: 70px;
+}
+.toolsContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 25px;
+}
+.headerIcons {
+  border: 1px solid transparent;
+  background-color: transparent;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerIcons:hover {
+  background-color: rgb(191, 186, 186);
+}
+.headerIcons:active {
+  background-color: transparent;
+}
+
+@media screen and (max-width: 400px) {
+  .navWrapper {
+    height: 25vh;
+  }
+}
