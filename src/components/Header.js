@@ -14,7 +14,7 @@ function Header() {
           <div className={styles.logoContainer}>
 
             <h1>
-              <Link to="/" style={{textDecoration:"none" , color:"black"}}>UG MONK</Link>
+              <Link to="/" style={{textDecoration:"none" , color:"black"}}>Agro Mart</Link>
             </h1>
 
           </div>

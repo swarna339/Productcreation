@@ -25,13 +25,13 @@ import styles from "../styles/Create.module.css";
 
 //to reset to default value and show this a  the inital value through react forms
 const defaultValues = {
-  color: "",
-  men: "",
+  description: "",
+  veg: "",
   name: "",
   price: "",
-  sizeL: "",
-  sizeM: "",
-  sizeS: "true",
+  twokg: "",
+  fivekg: "",
+  tenkg: "true",
   url: "",
 };
 
@@ -61,13 +61,13 @@ function Create() {
     const response = await dispatch(addAsyncThunk(newProeuct));
 
     reset({
-      color: "",
-      men: "",
+      description: "",
+      veg: "",
       name: "",
       price: "",
-      sizeL: "",
-      sizeM: "",
-      sizeS: "true",
+      twokg: "",
+      fivekg: "",
+      tenkg: "true",
       url: "",
     });
     //if fulfilled navigat to home
@@ -113,62 +113,62 @@ function Create() {
               {/* size */}
 
               <div className={styles.inputGroup}>
-                <label for="s">Product size:</label>
+                <label for="s">Product quantity:</label>
 
                 <input
                   type="checkbox"
                   id="s"
-                  name="sizeS"
+                  name="tenkg"
                   value={true}
-                  {...register("sizeS")}
+                  {...register("tenkg")}
                 />
                 <label for="s">S</label>
                 <input
                   type="checkbox"
                   id="m"
-                  name="sizeM"
+                  name="fivekg"
                   value={true}
-                  {...register("sizeM")}
+                  {...register("fivekg")}
                 />
                 <label for="m">M</label>
                 <input
                   type="checkbox"
                   id="l"
-                  name="sizeL"
+                  name="twokg"
                   value={true}
-                  {...register("sizeL")}
+                  {...register("twokg")}
                 />
                 <label for="l">L</label>
               </div>
-              {/* color */}
+              {/* Description */}
               <div className={styles.inputGroup}>
-                <label for="pcolor">Product color:</label>
+                <label for="pcolor">Product Description:</label>
                 <input
                   id="pcolor"
-                  name="color"
-                  placeholder="Product color"
-                  {...register("color", { required: true })}
+                  name="description"
+                  placeholder="Product Description"
+                  {...register("description", { required: true })}
                 />
               </div>
-              {/* gender */}
+              {/* product */}
               <div className={styles.inputGroup}>
-                <label for="men">Gender:</label>
+                <label for="veg">Type:</label>
                 <input
-                  id="men"
+                  id="veg"
                   type="radio"
-                  name="menOrWomen"
+                  name="vegOrFruit"
                   value="true"
-                  {...register("men", { required: true })}
+                  {...register("veg", { required: true })}
                 />
-                <label for="men">Men</label>
+                <label for="veg">VEGETABLES</label>
                 <input
-                  id="women"
+                  id="fruit"
                   type="radio"
-                  name="menOrWomen"
+                  name="vegOrFruit"
                   value="false"
-                  {...register("men", { required: true })}
+                  {...register("veg", { required: true })}
                 />
-                <label for="women">Women</label>
+                <label for="fruit">FRUITS</label>
               </div>
                 {/* image */}
               <div className={styles.inputGroup}>
@@ -193,9 +193,9 @@ function Create() {
                   //form validation
                   if (
                     errors.url ||
-                    errors.color ||
+                    errors.description ||
                     errors.name ||
-                    errors.men ||
+                    errors.veg ||
                     errors.price
                   ) {
                     //if not filled 

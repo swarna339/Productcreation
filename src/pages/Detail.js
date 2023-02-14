@@ -87,13 +87,13 @@ function Detail() {
 
         <div className={styles.detailsContainer}>
           <h3>{product.name}</h3>
-          <h3>{product.price}$</h3>
-          <h3>Color: {product.color}</h3>
-          <div className={styles.sizes}>
-            <h3>Size </h3>
-            <h3>{product.sizeS ? <button>S</button> : ""} </h3>
-            <h3>{product.sizeM ? <button>M</button> : ""} </h3>
-            <h3>{product.sizeL ? <button>L</button> : ""} </h3>
+          <h3>{product.price}Rs</h3>
+          <h3>Description: {product.description}</h3>
+          <div className={styles.tenkg}>
+            <h3>Quantity </h3>
+            <h3>{product.tenkg ? <button>S</button> : ""} </h3>
+            <h3>{product.fivekg ? <button>M</button> : ""} </h3>
+            <h3>{product.twokg ? <button>L</button> : ""} </h3>
           </div>
 
           {/* favourtie and unfavourite button */}
@@ -117,7 +117,7 @@ function Detail() {
               deleteItem(product.id);
             }}
           >
-            Delet product
+            Delete product
           </button>
         </div>
       </div>

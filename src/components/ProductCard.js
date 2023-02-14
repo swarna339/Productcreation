@@ -65,7 +65,7 @@ function ProductCard({ product }) {
         </div>
 
         <div className="priceRatingContainer">
-          <div>{product.price}$</div>
+          <div>{product.price}Rs</div>
           <div>
             <button
               // favbutton

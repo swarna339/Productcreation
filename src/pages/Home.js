@@ -43,7 +43,7 @@ function Home() {
   function showMenOrWomen() {
     if (showMensT) {
       //sends men product
-      return renderCards(products.men);
+      return renderCards(products.veg);
     } else {
       //sends women product
       return renderCards(products.women);

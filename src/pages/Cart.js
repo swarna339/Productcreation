@@ -45,8 +45,8 @@ function Cart() {
         disounds = (
           // disound 1
           <p>
-            Get <strong>{"20%"}</strong> offer of <strong>{total / 5}</strong>$
-            on top of your <strong>{total}$</strong>
+            Get <strong>{"20%"}</strong> offer of <strong>{total / 5}</strong>Rs
+            on top of your <strong>{total}Rs</strong>
           </p>
         );
 
@@ -59,8 +59,8 @@ function Cart() {
       disounds = (
         // disound 2
         <p>
-          Get <strong>{"10%"}</strong> offer of <strong>{total / 10}</strong>$
-          on top of your <strong>{total}$</strong>
+          Get <strong>{"10%"}</strong> offer of <strong>{total / 10}</strong>Rs
+          on top of your <strong>{total}Rs</strong>
         </p>
       );
 
@@ -68,7 +68,7 @@ function Cart() {
       return disounds;
     }
     // no discound add more products to cart
-    disounds = <p>Shop more for {1000 - total}$ to get 10% discound </p>;
+    disounds = <p>Shop more for {1000 - total}Rs to get 10% discound </p>;
     return disounds;
   }
 
@@ -121,12 +121,12 @@ function Cart() {
             <h3>Order details:</h3>
             <p>Cart items: {cartItems && cartItems.length}</p>
 
-            <p> Dicsound: {useDiscound ? eligibleDisound : 0}$</p>
-            <p> Total: {total}$</p>
+            <p> Dicsound: {useDiscound ? eligibleDisound : 0}Rs</p>
+            <p> Total: {total}Rs</p>
             {useDiscound ? (
-              <h3>Buy now at {total - eligibleDisound}$</h3>
+              <h3>Buy now at {total - eligibleDisound}Rs</h3>
             ) : (
-              <h3>Buy now at {total}$</h3>
+              <h3>Buy now at {total}Rs</h3>
             )}
           </div>
           <div className="princeContainer"></div>

@@ -13,7 +13,7 @@ export default function Tabs({ showMensT, setShowMensT }) {
           setShowMensT(true);
         }}
       >
-        <h3 style={showMensT ? { color: "black" } : { color: "grey" }}>MEN</h3>
+        <h3 style={showMensT ? { color: "black" } : { color: "grey" }}>VEGETABLES</h3>
 
       </button>
 
@@ -27,7 +27,7 @@ export default function Tabs({ showMensT, setShowMensT }) {
       >
         <h3 style={showMensT ? { color: "grey" } : { color: "black" }}>
           
-          WOMEN
+          FRUITS
         </h3>
       </button>
     </div>

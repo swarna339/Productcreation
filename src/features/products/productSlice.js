@@ -167,7 +167,7 @@ const productSlice = createSlice({
 
 export const getAllProducts = (state) => {
   const products = {
-    men: [],
+    veg: [],
     women: [],
   };
 
@@ -176,8 +176,8 @@ export const getAllProducts = (state) => {
   // to send all products from state;
   if (allproducts != undefined) {
     allproducts.map((product) => {
-      if (product.men === "true") {
-        products.men.push(product);
+      if (product.veg === "true") {
+        products.veg.push(product);
       } else {
         products.women.push(product);
       }

@@ -10,7 +10,7 @@ function Navbar() {
         <div className={styles.logoContainer}>
 
           <h1>
-            <Link to="/" style={{textDecoration:"none" , color:"white"}}>UG MONK</Link>
+            <Link to="/" style={{textDecoration:"none" , color:"white"}}>Agro Mart</Link>
           </h1>
         </div>
 
